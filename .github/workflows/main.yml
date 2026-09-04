@@ -47,7 +47,7 @@ jobs:
               echo "Repository belum di-clone. Cloning...";
               mkdir -p ~/senpro/545484/modul02;
               cd ~/senpro/545484/modul02;
-              git clone ; https://github.com/nindalr/senpro-github-action
+              git clone https://github.com/nindalr/senpro-github-action;
               cd ~/senpro/545484/modul02/senpro-github-action;
               echo "Install Package dan Build Project";
               npm install;
