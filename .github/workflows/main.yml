@@ -55,7 +55,7 @@ jobs:
             } ||
             {
               echo "Repository sudah ada. Building...";
-              cd ~/senpro/<<NIM>>/modul02/senpro-github-action;
+              cd ~/senpro/545484/modul02/senpro-github-action;
               git pull origin main;
               echo "Install Package dan Build Project";
               npm install;
